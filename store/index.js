@@ -2,7 +2,8 @@ import { SET_BLOG_POSTS, SET_PROJECT_POSTS, SET_TEST_POSTS } from './mutations.t
 
 export const state = () => ({
   blogPosts: [],
-  projectPosts: []
+  projectPosts: [],
+  testPosts: [],
 })
 
 export const mutations = {
